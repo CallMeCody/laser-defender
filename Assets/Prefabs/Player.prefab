@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6161019237734933638}
   - component: {fileID: 6161019237734933639}
   - component: {fileID: 6161019237734933641}
-  - component: {fileID: 954404978940438467}
+  - component: {fileID: 4327653025042898047}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 435f238ea29aa3244b0906fb6cc07a2b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fcdfad53253bf542b43c1418dbbe70e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -106,7 +106,7 @@ MonoBehaviour:
   deathSoundVolume: 0.7
   shootSound: {fileID: 8300000, guid: 7443022fec4c1e24ab59fb6124e5b7b4, type: 3}
   shootSoundVolume: 0.1
---- !u!60 &954404978940438467
+--- !u!60 &4327653025042898047
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,7 +123,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.98, y: 0.75}
+    oldSize: {x: 1.5, y: 1.5}
     newSize: {x: 0.98, y: 0.75}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -131,16 +131,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.0404834, y: 0.375}
-      - {x: -0.04150845, y: 0.37710857}
-      - {x: -0.105663024, y: 0.2274561}
-      - {x: -0.48589978, y: -0.2151744}
-      - {x: -0.49421662, y: -0.22084194}
-      - {x: -0.48789164, y: -0.29391617}
-      - {x: -0.2261952, y: -0.2860136}
-      - {x: -0.13729177, y: -0.37710762}
-      - {x: 0.12875216, y: -0.37280273}
-      - {x: 0.2210833, y: -0.28223324}
-      - {x: 0.48402846, y: -0.28424758}
-      - {x: 0.48578334, y: -0.21927433}
-      - {x: 0.103616774, y: 0.23608287}
+    - - {x: 0.6532536, y: -0.75195795}
+      - {x: 0.65257186, y: -0.35981655}
+      - {x: 0.24986304, y: -0.34951591}
+      - {x: 0.24675873, y: 0.74999905}
+      - {x: -0.3122876, y: 0.75}
+      - {x: -0.3118092, y: -0.36714268}
+      - {x: -0.7474995, y: -0.35837364}
+      - {x: -0.74959576, y: -0.7694537}
